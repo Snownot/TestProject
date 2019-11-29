@@ -5,7 +5,11 @@ public class Cat {
     public String name;
 
     public void canSay() {
-        System.out.println("Something");
+        say();
+    }
+
+    private void say() {
+        System.out.println("CanSay");
     }
 
 }
